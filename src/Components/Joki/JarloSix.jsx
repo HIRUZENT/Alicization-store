@@ -29,42 +29,6 @@ const JarloSix = () => {
               <p>Traversing across the snow plains, you can get a full view of Belobog, the only spot on the ice-cold world of Jarilo-VI that barely fits the definition of wibu</p>
             </div>
             <div className="col-12 rows-list">
-              <div className="row row-list-joki">
-                <div className="col-12 d-flex">
-                  <p>
-                    Stage 1 - 4 Per star <span>( Rp.4k )</span>
-                  </p>
-                  <h6>
-                    <a href={whatsAppUrl} onClick={() => setOrder("Hallo kak, aku mau order Jarlo VI Stage 1 - 4 Per Star")} target="_blank" rel="noopener noreferrer">
-                      Order
-                    </a>
-                  </h6>
-                </div>
-              </div>
-              <div className="row row-list-joki">
-                <div className="col-12 d-flex">
-                  <p>
-                    Stage 5 - 9 Per star <span>( Rp.7k )</span>
-                  </p>
-                  <h6>
-                    <a href={whatsAppUrl} onClick={() => setOrder("Hallo kak, aku mau order Jarlo VI Stage 5 - 9 Per star")} target="_blank" rel="noopener noreferrer">
-                      Order
-                    </a>
-                  </h6>
-                </div>
-              </div>
-              <div className="row row-list-joki">
-                <div className="col-12 d-flex">
-                  <p>
-                    Stage 10 - 15 Per star <span>( Rp. 10k )</span>
-                  </p>
-                  <h6>
-                    <a href={whatsAppUrl} onClick={() => setOrder("Hallo kak, aku mau order Jarlo VI Stage 10 - 15 Per star")} target="_blank" rel="noopener noreferrer">
-                      Order
-                    </a>
-                  </h6>
-                </div>
-              </div>
               <div className="row">
                 <h1 className="header-jarlosix-fullstar">
                   Full <span>STAR</span>
@@ -73,13 +37,54 @@ const JarloSix = () => {
               <div className="row row-list-joki">
                 <div className="col-12 d-flex">
                   <p>
+                    Stage 1 - 4 Per star <span>( Rp.4k )</span>
+                  </p>
+                  <div>
+                    <a href={whatsAppUrl} onClick={() => setOrder("Hallo kak, aku mau order Jarlo VI Stage 1 - 4 Per Star")} target="_blank" rel="noopener noreferrer">
+                      Order
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="row row-list-joki">
+                <div className="col-12 d-flex">
+                  <p>
+                    Stage 5 - 9 Per star <span>( Rp.7k )</span>
+                  </p>
+                  <div>
+                    <a href={whatsAppUrl} onClick={() => setOrder("Hallo kak, aku mau order Jarlo VI Stage 5 - 9 Per star")} target="_blank" rel="noopener noreferrer">
+                      Order
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="row row-list-joki">
+                <div className="col-12 d-flex">
+                  <p>
+                    Stage 10 - 15 Per star <span>( Rp. 10k )</span>
+                  </p>
+                  <div>
+                    <a href={whatsAppUrl} onClick={() => setOrder("Hallo kak, aku mau order Jarlo VI Stage 10 - 15 Per star")} target="_blank" rel="noopener noreferrer">
+                      Order
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="row">
+                <h1 className="header-jarlosix-fullstar">
+                  Full <span>STAGE</span>
+                </h1>
+              </div>
+              <div className="row row-list-joki">
+                <div className="col-12 d-flex">
+                  <p>
                     Stage 1 - 4 Per Stage <span>( Rp.10k )</span>
                   </p>
-                  <h6>
+                  <div>
                     <a href={whatsAppUrl} onClick={() => setOrder("Hallo kak, aku mau order Jarlo VI Stage 10 - 15 Per Stage")} target="_blank" rel="noopener noreferrer">
                       Order
                     </a>
-                  </h6>
+                  </div>
                 </div>
               </div>
               <div className="row row-list-joki">
@@ -87,11 +92,11 @@ const JarloSix = () => {
                   <p>
                     Stage 5 - 9 Per Stage <span>( Rp.20k )</span>
                   </p>
-                  <h6>
+                  <div>
                     <a href={whatsAppUrl} onClick={() => setOrder("Hallo kak, aku mau order Jarlo VI Stage 10 - 15 Per Stage")} target="_blank" rel="noopener noreferrer">
                       Order
                     </a>
-                  </h6>
+                  </div>
                 </div>
               </div>
               <div className="row row-list-joki">
@@ -99,15 +104,17 @@ const JarloSix = () => {
                   <p>
                     Stage 10 - 15 Per Stage <span>( Rp.30k )</span>
                   </p>
-                  <h6>
+                  <div>
                     <a href={whatsAppUrl} onClick={() => setOrder("Hallo kak, aku mau order Jarlo VI Stage 10 - 15 Per Stage")} target="_blank" rel="noopener noreferrer">
                       Order
                     </a>
-                  </h6>
+                  </div>
                 </div>
               </div>
               <div className="row d-flex row-note">
-                <h3>Note</h3>
+                <p>
+                  Note <span>*</span>
+                </p>
                 <p>segala puji syukur kita panjatkan kepada wibu atas Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id facilis eligendi quaerat, quibusdam explicabo illo provident! Deserunt dolores fugit sunt?</p>
               </div>
             </div>

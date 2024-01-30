@@ -150,8 +150,8 @@
   letter-spacing: 2px;
   color: rgb(0, 0, 0);
 }
-.row-list-joki h6 a {
-  background-color: #e14b4b;
+.row-list-joki a {
+  background-color: #ab1c1c;
   padding: 8px 15px 8px 15px;
   border-radius: 5px;
   text-decoration: none;
@@ -159,7 +159,7 @@
   font-size: 0.9rem;
   font-weight: 600;
 }
-.row-list-joki h6:hover {
+.row-list-joki:hover {
   cursor: pointer;
 }
 .header-jarlosix-fullstar {
@@ -175,14 +175,13 @@
 .row-note {
   padding: 2rem;
 }
-.row-note h3 {
+.row-note p {
   font-size: 1.1rem;
   font-family: "Anton";
   letter-spacing: 3px;
   color: black;
 }
-.row-note h3:after {
-  content: "*";
+.row-note p span {
   color: #e14b4b;
 }
 .row-note p {
@@ -239,7 +238,7 @@
   .row-list-joki p {
     font-size: 0.9rem;
   }
-  .row-list-joki h6 a {
+  .row-list-joki a {
     font-size: 0.7rem;
   }
 }

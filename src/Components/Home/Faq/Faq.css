@@ -54,6 +54,7 @@
   top: 0;
   left: 0;
   margin: 30px;
+  margin-top: 5rem;
   width: 70px;
   position: fixed;
   transition: all 0.5s ease;
@@ -131,10 +132,6 @@
   }
 }
 @media (width <= 925px) {
-  .iconHeader img {
-    transform: translateY(50px);
-    transition: all 0.3s ease;
-  }
   .all-questions .quest-1, .quest-2, .quest-3{
     font-size: 1.5rem;
   }

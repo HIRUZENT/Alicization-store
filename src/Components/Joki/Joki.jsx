@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../Navbar";
-import IconContact from '../IconContact';
+// import IconContact from '../IconContact';
 import herta from "../Images/herta.png";
 import charlote from "../Images/charlote.png";
 import woldrender from "../Images/wolfrender.png";
@@ -11,7 +11,7 @@ const Joki = () => {
   return (
     <>
       <Navbar />
-      <IconContact/>
+      {/* <IconContact/> */}
       <div className="container">
         <div className="row header-joki">
           <h1>
