@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+.navbar-khusus {
+  margin-left: 15%;
+}
+.header-joki {
+  margin: 3rem 0rem 3rem 0.5rem;
+}
+.header-joki h1 {
+  font-family: "Anton";
+  font-weight: 800;
+  letter-spacing: 4px;
+}
+.container-jarlosix .iconHeader img {
+  margin-left: 92%;
+}
+.header-joki span {
+  color: #e14b4b;
+}
+.container-card {
+  padding: 3% 5% 5% 5%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.container-card .row-card .col-md-4 {
+  margin-bottom: 1.5rem;
+}
+.column-card {
+  min-height: 15rem;
+  max-height: 30rem;
+  max-width: 20rem;
+  transition: all 0.3s ease;
+  position: relative;
+}
+.column-card h4 {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  border-radius: 10px;
+  top: 80%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 92%;
+  height: 20%;
+  color: white;
+  font-weight: 700;
+  padding-top: 20px;
+}
+.column-card img {
+  width: 100%;
+  object-fit: cover;
+  padding-top: 25px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+.cards1 img {
+  background-color: rgba(163, 164, 233, 0.3);
+}
+.cards1 h4 {
+  background: linear-gradient(to top, rgb(137, 139, 241), transparent);
+}
+.cards2 img {
+  background-color: rgba(231, 219, 44, 0.3);
+}
+.cards2 h4 {
+  background: linear-gradient(to top, rgb(235, 224, 75), transparent);
+}
+.cards3 img {
+  background-color: rgba(225, 75, 75, 0.3);
+}
+.cards3 h4 {
+  background: linear-gradient(to top, rgba(225, 75, 75), transparent);
+}
+.cards4 img {
+  background-color: rgba(163, 164, 233, 0.4);
+}
+.cards4 h4 {
+  background: linear-gradient(to top, rgb(137, 139, 241), transparent);
+}
+.column-card:hover {
+  scale: 1.2;
+  transition: all 0.3s ease;
+}
+/* Halaman jarlo six */
+.container-jarlosix {
+  position: fixed;
+  min-height: 30rem;
+  margin-left: -1rem;
+}
+.row-jarlosix {
+  margin-top: 2.5rem;
+  min-height: 50rem;
+  max-height: 2rem;
+  min-width: 5rem;
+}
+.jarlosix-left-image img {
+  margin-top: -8rem;
+  z-index: -99;
+  width: 100%;
+  position: relative;
+  height: 100vh;
+  object-fit: cover;
+}
+.header-jarlosix {
+  padding-left: 3rem;
+  padding-right: 2rem;
+}
+.header-jarlosix .rows-list {
+  max-height: 70vh;
+  overflow: auto;
+  overflow-x: hidden;
+}
+.header-jarlosix-text1 {
+  font-family: "Anton", sans-serif;
+  letter-spacing: 8px;
+  font-weight: 700;
+}
+.header-jarlosix-text1 span {
+  color: #e14b4b;
+}
+.header-jarlosix-text-2 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: "Poppins";
+}
+.header-kategori h2 {
+  text-align: center;
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+}
+.header-kategori span {
+  color: #e14b4b;
+}
+.row-list-joki {
+  max-width: 85%;
+  margin-left: 1rem;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+}
+.row-list-joki .col-12 {
+  padding: 15px 13px 0px 15px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+.row-list-joki p {
+  font-size: 1.2rem;
+  font-weight: 100;
+  font-family: "Anton";
+  letter-spacing: 2px;
+  color: rgb(0, 0, 0);
+}
+.row-list-joki h6 a {
+  background-color: #e14b4b;
+  padding: 8px 15px 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.row-list-joki h6:hover {
+  cursor: pointer;
+}
+.header-jarlosix-fullstar {
+  font-family: "Anton", sans-serif;
+  letter-spacing: 4px;
+  font-size: 1.5rem;
+  width: auto;
+  margin: 2rem 0rem 1rem 2rem;
+}
+.header-jarlosix-fullstar span {
+  color: #e14b4b;
+}
+.row-note {
+  padding: 2rem;
+}
+.row-note h3 {
+  font-size: 1.1rem;
+  font-family: "Anton";
+  letter-spacing: 3px;
+  color: black;
+}
+.row-note h3:after {
+  content: "*";
+  color: #e14b4b;
+}
+.row-note p {
+  color: black;
+}
+@media (width <= 768px) {
+  body {
+    height: 160vh;
+  }
+  .container-jarlosix {
+    position: unset;
+  }
+  .navbar-khusus {
+    margin-left: 0%;
+  }
+  .jarlosix-left-image img {
+    z-index: -99;
+    width: 90%;
+    height: 12rem;
+    top: 6rem;
+    margin-left: 2rem;
+    border-radius: 10px;
+  }
+  .container-jarlosix .iconHeader img {
+    margin-top: 1rem;
+  }
+  .header-jarlosix {
+    margin-top: 7rem;
+  }
+  .row-list-joki {
+    max-width: 98%;
+  }
+}
+@media (width <= 1110px) {
+  .container-jarlosix .iconHeader img {
+    margin-left: 90%;
+    margin-top: 4rem;
+  }
+}
+@media (width <= 925px) {
+  .container-jarlosix .iconHeader img {
+    margin-left: 90%;
+    margin-top: 1rem;
+  }
+}
+@media (width <= 505px) {
+  .header-jarlosix-text1 {
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+  }
+  .header-jarlosix-text-2 {
+    font-size: 1rem;
+  }
+  .row-list-joki p {
+    font-size: 0.9rem;
+  }
+  .row-list-joki h6 a {
+    font-size: 0.7rem;
+  }
+}

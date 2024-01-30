@@ -1,0 +1,84 @@
+@keyframes iconContact {
+  0% {
+    transform: translateX(-12rem);
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: translateX(0rem);
+    transform: rotate(20deg);
+    scale: 1.4;
+  }
+  75% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    scale: 1;
+    transform: rotate(0deg);
+  }
+}
+@keyframes header {
+  from {
+    opacity: 0;
+    font-size: 4rem;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.containerHeader {
+  font-family: "Anton";
+  bottom: 0;
+  margin-top: 2.5rem;
+  transition: all 0.3s ease;
+}
+.containerHeader img {
+  top: 0;
+  left: 0;
+  margin: 30px;
+  width: 70px;
+  position: fixed;
+  transition: all 0.5s ease;
+  animation: iconContact 2s ease;
+}
+.containerHeader img:hover {
+  scale: 1.3;
+}
+.containerHeader .row {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.containerHeader span {
+  color: #e14b4b;
+}
+.containerHeader h1 {
+  letter-spacing: 2px;
+  font-size: 3rem;
+  animation: header 1s ease;
+}
+@media (width <= 925px) {
+  .containerHeader img {
+    transform: translateY(50px);
+    transition: all 0.3s ease;
+  }
+}
+@media (width <= 894px) {
+  .containerHeader img {
+    width: 65px;
+  }
+  .containerHeader h1 {
+    letter-spacing: 2px;
+    font-size: 2rem;
+  }
+}
+@media (width <= 576px) {
+  .containerHeader {
+    transition: all 0.3s ease;
+  }
+}
+@media (width <= 400px) {
+  .containerHeader img {
+    display: none;
+  }
+}

@@ -1,0 +1,40 @@
+@keyframes gambarWibu {
+  from {
+    margin-top: 3rem;
+    opacity: 0.5;
+  }
+  to {
+    transform: translate-Y(0rem);
+    opacity: 1;
+  }
+}
+.containerWibu {
+  bottom: 0;
+  max-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+.containerWibu .col-12 img {
+  scale: 0.6;
+  transition: all 0.3s ease;
+  animation: gambarWibu 1s ease;
+}
+@media (width <= 1460px) {
+  .containerWibu .col-12 img {
+    scale: 1;
+    transition: all 0.3s ease;
+  }
+}
+@media (width <= 1000px) {
+  .containerWibu {
+    transition: all 0.3s ease;
+  }
+}
+@media (width <= 700px) {
+  .containerWibu {
+    transform: translateY(10%);
+    transition: all 0.3s ease;
+  }
+}

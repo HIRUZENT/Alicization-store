@@ -1,0 +1,51 @@
+@keyframes navShow{
+  from{
+    transform: translateY(-5rem);
+    opacity: 0;
+  } to{
+    transform: translateY(0rem);
+    opacity: 1;
+  }
+}
+nav{
+  animation: navShow 0.8s ease;
+  z-index: 99;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+nav .container {
+  max-width: 55rem;
+  padding-top: 2rem;
+  font-family: "Poppins";
+}
+nav ul li a {
+  font-size: 1.3rem;
+  color: rgb(56, 55, 55);
+  text-decoration: none;
+}
+nav .container ul li p{
+  transition: all 0.3s ease;
+}
+nav .container ul li p:hover{
+  cursor: pointer;
+  font-weight: 700;
+  color: #e14b4b;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+}
+@media (width <= 894px) {
+  nav .container {
+    max-width: 45rem;
+    padding-top: 2rem;
+    font-family: "Poppins";
+  }
+  nav ul li a {
+    font-size: 1rem;
+    color: rgb(56, 55, 55);
+    text-decoration: none;
+  }
+}
