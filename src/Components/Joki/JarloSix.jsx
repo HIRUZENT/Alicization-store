@@ -115,7 +115,9 @@ const JarloSix = () => {
                 <p>
                   Note <span>*</span>
                 </p>
-                <p>segala puji syukur kita panjatkan kepada wibu atas Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id facilis eligendi quaerat, quibusdam explicabo illo provident! Deserunt dolores fugit sunt?</p>
+                <div className="noted">
+                  <h3>segala puji syukur kita panjatkan kepada wibu atas Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id facilis eligendi quaerat, quibusdam explicabo illo provident! Deserunt dolores fugit sunt?</h3>
+                </div>
               </div>
             </div>
           </div>

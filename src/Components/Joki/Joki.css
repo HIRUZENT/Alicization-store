@@ -184,10 +184,17 @@
 .row-note p span {
   color: #e14b4b;
 }
-.row-note p {
+.row-note .noted h3 {
+  font-size: 1rem;
+  font-family: "Poppins";
+  letter-spacing: 1px;
   color: black;
+  font-weight: 400;
 }
 @media (width <= 768px) {
+  .container-jarlosix .iconHeader img {
+    display: none;
+  }
   body {
     height: 160vh;
   }
@@ -199,10 +206,10 @@
   }
   .jarlosix-left-image img {
     z-index: -99;
-    width: 90%;
+    width: 95%;
     height: 12rem;
     top: 6rem;
-    margin-left: 2rem;
+    margin-left: 5%;
     border-radius: 10px;
   }
   .container-jarlosix .iconHeader img {
@@ -224,7 +231,7 @@
 @media (width <= 925px) {
   .container-jarlosix .iconHeader img {
     margin-left: 90%;
-    margin-top: 1rem;
+    margin-right: 5%;
   }
 }
 @media (width <= 505px) {
