@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Navbar from "../../Components/Navbar";
 import IconContact from "../IconContact";
-import bg2 from "../Images/bg2.jpg";
+import bgLuofu from "../Images/bg-luofu.jpeg";
 import "../Home/Faq/Faq.css";
 const Luofu = () => {
   const [order, setOrder] = useState("");
@@ -15,10 +15,10 @@ const Luofu = () => {
       <div className="container-fluid container-jarlosix">
         <IconContact />
         <div className="row row-jarlosix">
-          <div className="col-md-3 jarlosix-left-image">
-            <img src={bg2} alt="JarloSix images" />
+          <div className="col-3 jarlosix-left-image">
+            <img src={bgLuofu} alt="JarloSix images" style={{ objectPosition: "12% 0px" }}/>
           </div>
-          <div className="col-md-9 header-jarlosix">
+          <div className="col-9 header-jarlosix">
             <div className="row">
               <h1 className="header-jarlosix-text1">
                 Luofu - <span>VI</span>

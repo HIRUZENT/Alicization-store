@@ -48,7 +48,8 @@
   height: 20%;
   color: white;
   font-weight: 700;
-  padding-top: 20px;
+  padding-top: 10px;
+  font-size: 1rem;
 }
 .column-card img {
   width: 100%;
