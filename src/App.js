@@ -5,6 +5,7 @@ import Faq from './Components/Home/Faq/Faq.jsx';
 import Topup from './Components/Topup/Topup';
 import Joki from './Components/Joki/Joki.jsx';
 import JarloSix from './Components/Joki/JarloSix';
+import Luofu from './Components/Joki/Luofu';
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
           <Route exact path="/faq" element={<Faq />} />
           <Route exact path="/top-up" element={<Topup />} />
           <Route exact path="/joki/jarlo-six" element={<JarloSix />} />
+          <Route exact path="/joki/luofu" element={<Luofu />} />
         </Routes>
       </Router>
     </div>

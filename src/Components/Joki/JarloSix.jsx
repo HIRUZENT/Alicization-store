@@ -7,7 +7,6 @@ const JarloSix = () => {
   const [order, setOrder] = useState("");
   const encodeMessage = encodeURI(order);
   const whatsAppUrl = `https://wa.me/6289606230316?text=${encodeMessage}`;
-  console.log(whatsAppUrl);
   return (
     <>
       <div className="navbar-khusus">
@@ -22,7 +21,7 @@ const JarloSix = () => {
           <div className="col-md-9 header-jarlosix">
             <div className="row">
               <h1 className="header-jarlosix-text1">
-                Jarlo - <span>VI</span>
+                Jarlio - <span>VI</span>
               </h1>
             </div>
             <div className="row header-jarlosix-text-2">
@@ -31,16 +30,16 @@ const JarloSix = () => {
             <div className="col-12 rows-list">
               <div className="row">
                 <h1 className="header-jarlosix-fullstar">
-                  Full <span>STAR</span>
+                  Per <span>STAR</span>
                 </h1>
               </div>
               <div className="row row-list-joki">
                 <div className="col-12 d-flex">
                   <p>
-                    Stage 1 - 4 Per star <span>( Rp.4k )</span>
+                    Stage 1 - 4 Per star <span>( 4k )</span>
                   </p>
                   <div>
-                    <a href={whatsAppUrl} onClick={() => setOrder("Hallo kak, aku mau order Jarlo VI Stage 1 - 4 Per Star")} target="_blank" rel="noopener noreferrer">
+                    <a href={whatsAppUrl} onClick={() => setOrder("Hallo kak, aku mau order *Forgotten Hall* Jarlio-VI Stage 1 - 4 Per Star")} target="_blank" rel="noopener noreferrer">
                       Order
                     </a>
                   </div>
@@ -49,10 +48,10 @@ const JarloSix = () => {
               <div className="row row-list-joki">
                 <div className="col-12 d-flex">
                   <p>
-                    Stage 5 - 9 Per star <span>( Rp.7k )</span>
+                    Stage 5 - 9 Per star <span>( 7k )</span>
                   </p>
                   <div>
-                    <a href={whatsAppUrl} onClick={() => setOrder("Hallo kak, aku mau order Jarlo VI Stage 5 - 9 Per star")} target="_blank" rel="noopener noreferrer">
+                    <a href={whatsAppUrl} onClick={() => setOrder("Hallo kak, aku mau order *Forgotten Hall* Jarlio-VI Stage 5 - 9 Per Star")} target="_blank" rel="noopener noreferrer">
                       Order
                     </a>
                   </div>
@@ -61,10 +60,10 @@ const JarloSix = () => {
               <div className="row row-list-joki">
                 <div className="col-12 d-flex">
                   <p>
-                    Stage 10 - 15 Per star <span>( Rp. 10k )</span>
+                    Stage 10 - 15 Per star <span>( 10k )</span>
                   </p>
                   <div>
-                    <a href={whatsAppUrl} onClick={() => setOrder("Hallo kak, aku mau order Jarlo VI Stage 10 - 15 Per star")} target="_blank" rel="noopener noreferrer">
+                    <a href={whatsAppUrl} onClick={() => setOrder("Hallo kak, aku mau order *Forgotten Hall* Jarlio-VI Stage 10 - 15 Per Star")} target="_blank" rel="noopener noreferrer">
                       Order
                     </a>
                   </div>
@@ -72,16 +71,16 @@ const JarloSix = () => {
               </div>
               <div className="row">
                 <h1 className="header-jarlosix-fullstar">
-                  Full <span>STAGE</span>
+                  Full <span>STAR</span>
                 </h1>
               </div>
               <div className="row row-list-joki">
                 <div className="col-12 d-flex">
                   <p>
-                    Stage 1 - 4 Per Stage <span>( Rp.10k )</span>
+                    Stage 1 - 4 Per Stage <span>( 10k )</span>
                   </p>
                   <div>
-                    <a href={whatsAppUrl} onClick={() => setOrder("Hallo kak, aku mau order Jarlo VI Stage 10 - 15 Per Stage")} target="_blank" rel="noopener noreferrer">
+                    <a href={whatsAppUrl} onClick={() => setOrder("Hallo kak, aku mau order *Forgotten Hall* Jarlio-VI Stage 1 - 4 Per Stage")} target="_blank" rel="noopener noreferrer">
                       Order
                     </a>
                   </div>
@@ -90,10 +89,10 @@ const JarloSix = () => {
               <div className="row row-list-joki">
                 <div className="col-12 d-flex">
                   <p>
-                    Stage 5 - 9 Per Stage <span>( Rp.20k )</span>
+                    Stage 5 - 9 Per Stage <span>( 20k )</span>
                   </p>
                   <div>
-                    <a href={whatsAppUrl} onClick={() => setOrder("Hallo kak, aku mau order Jarlo VI Stage 10 - 15 Per Stage")} target="_blank" rel="noopener noreferrer">
+                    <a href={whatsAppUrl} onClick={() => setOrder("Hallo kak, aku mau order *Forgotten Hall* Jarlio-VI Stage 5 - 9 Per Stage")} target="_blank" rel="noopener noreferrer">
                       Order
                     </a>
                   </div>
@@ -102,10 +101,10 @@ const JarloSix = () => {
               <div className="row row-list-joki">
                 <div className="col-12 d-flex">
                   <p>
-                    Stage 10 - 15 Per Stage <span>( Rp.30k )</span>
+                    Stage 10 - 15 Per Stage <span>( 30k )</span>
                   </p>
                   <div>
-                    <a href={whatsAppUrl} onClick={() => setOrder("Hallo kak, aku mau order Jarlo VI Stage 10 - 15 Per Stage")} target="_blank" rel="noopener noreferrer">
+                    <a href={whatsAppUrl} onClick={() => setOrder("Hallo kak, aku mau order *Forgotten Hall* Jarlio-VI Stage 10 - 15 Per Stage")} target="_blank" rel="noopener noreferrer">
                       Order
                     </a>
                   </div>
@@ -116,7 +115,7 @@ const JarloSix = () => {
                   Note <span>*</span>
                 </p>
                 <div className="noted">
-                  <h3>segala puji syukur kita panjatkan kepada wibu atas Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id facilis eligendi quaerat, quibusdam explicabo illo provident! Deserunt dolores fugit sunt?</h3>
+                  <h3>klo mau joki harus pake perasaan yah, misalnya akun kalian lvl 50 atau dibawahnya, trus order MoC lvl 70 keatas, mohon maaf kami tidak bisa, enjoy :)</h3>
                 </div>
               </div>
             </div>

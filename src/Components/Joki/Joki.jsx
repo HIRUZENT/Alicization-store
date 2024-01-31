@@ -1,10 +1,13 @@
 import React from "react";
 import Navbar from "../Navbar";
 // import IconContact from '../IconContact';
+import silverWolf from "../Images/silwolf.png";
 import herta from "../Images/herta.png";
 import charlote from "../Images/charlote.png";
 import woldrender from "../Images/wolfrender.png";
 import traiblazers from "../Images/traiblazers.png";
+import himeko from "../Images/himekochans.png";
+import hook from "../Images/hook.png";
 // import caelus from "../Images/caelus.png";
 import "./Joki.css";
 const Joki = () => {
@@ -22,7 +25,8 @@ const Joki = () => {
       <div className="container">
         <div className="row header-kategori">
           <h2>
-            Misalnya ini <span>Forgotten hall</span>
+            Forgotten
+            <span> Hall</span>
           </h2>
         </div>
       </div>
@@ -31,23 +35,23 @@ const Joki = () => {
           <div className="col-md-4 col-lg-3 col-sm-4 col-6 d-flex column-card cards1">
             <a href="/joki/jarlo-six" className="d-flex">
               <img src={herta} alt="Card_2" />
-              <h4>Jarlo-VII</h4>
+              <h4>Jarlio-VI</h4>
             </a>
           </div>
           <div className="col-md-4 col-lg-3 col-sm-4 col-6 d-flex column-card cards2">
-            <a href="/" className="d-flex">
-              <img src={traiblazers} alt="Card_2" />
-              <h4>TraiBlazers</h4>
+            <a href="/joki/luofu" className="d-flex">
+              <img src={hook} alt="Card_2" />
+              <h4>The Xoanzhou Loufu</h4>
             </a>
           </div>
           <div className="col-md-4 col-lg-3 col-sm-4 col-6 d-flex column-card cards3">
             <a href="/" className="d-flex">
-              <img src={charlote} alt="Card_3" />
-              <h4>AWOKAW</h4>
+              <img src={himeko} alt="Card_3" />
+              <h4>Memory of Chaos</h4>
             </a>
           </div>
           <div className="col-md-4 col-lg-3 col-sm-4 col-6 d-flex column-card cards4">
-            <img src={woldrender} alt="Card_4" />
+            <img src={silverWolf} alt="Card_4" />
             <h4>AWOKAW</h4>
           </div>
         </div>

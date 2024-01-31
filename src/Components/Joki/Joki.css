@@ -26,8 +26,8 @@
   margin-bottom: 1.5rem;
 }
 .column-card {
-  min-height: 15rem;
-  max-height: 30rem;
+  min-height: 38rem;
+  max-height: 10rem;
   max-width: 20rem;
   transition: all 0.3s ease;
   position: relative;
@@ -37,14 +37,13 @@
   bottom: 0;
   left: 50%;
   border-radius: 10px;
-  top: 80%;
+  top: 85%;
   transform: translateX(-50%);
   text-align: center;
   width: 92%;
-  height: 20%;
+  height: 15%;
   color: white;
   font-weight: 700;
-  padding-top: 20px;
 }
 .column-card img {
   width: 100%;
@@ -54,13 +53,15 @@
   border-radius: 10px;
 }
 .cards1 img {
-  background-color: rgba(163, 164, 233, 0.3);
+  background-color: rgba(163, 164, 233, 0.6);
 }
 .cards1 h4 {
   background: linear-gradient(to top, rgb(137, 139, 241), transparent);
 }
 .cards2 img {
-  background-color: rgba(231, 219, 44, 0.3);
+  object-fit: cover;
+  object-position: -70px 20px;
+  background-color: rgba(231, 219, 44, 0.5);
 }
 .cards2 h4 {
   background: linear-gradient(to top, rgb(235, 224, 75), transparent);
@@ -72,7 +73,7 @@
   background: linear-gradient(to top, rgba(225, 75, 75), transparent);
 }
 .cards4 img {
-  background-color: rgba(163, 164, 233, 0.4);
+  background-color: rgba(163, 164, 233, 0.5);
 }
 .cards4 h4 {
   background: linear-gradient(to top, rgb(137, 139, 241), transparent);
@@ -191,6 +192,19 @@
   color: black;
   font-weight: 400;
 }
+
+@media (width <= 1110px) {
+  .container-jarlosix .iconHeader img {
+    margin-left: 90%;
+    margin-top: 4rem;
+  }
+}
+@media (width <= 925px) {
+  .container-jarlosix .iconHeader img {
+    margin-left: 90%;
+    margin-right: 5%;
+  }
+}
 @media (width <= 768px) {
   .container-jarlosix .iconHeader img {
     display: none;
@@ -207,6 +221,7 @@
   .jarlosix-left-image img {
     z-index: -99;
     width: 95%;
+    object-position: 0rem 0rem;
     height: 12rem;
     top: 6rem;
     margin-left: 5%;
@@ -222,18 +237,6 @@
     max-width: 98%;
   }
 }
-@media (width <= 1110px) {
-  .container-jarlosix .iconHeader img {
-    margin-left: 90%;
-    margin-top: 4rem;
-  }
-}
-@media (width <= 925px) {
-  .container-jarlosix .iconHeader img {
-    margin-left: 90%;
-    margin-right: 5%;
-  }
-}
 @media (width <= 505px) {
   .header-jarlosix-text1 {
     font-size: 1.5rem;
@@ -247,5 +250,17 @@
   }
   .row-list-joki a {
     font-size: 0.7rem;
+  }
+}
+@media (width <= 893px) {
+  .cards2 img {
+    object-position: -20px 10px;
+  }
+  .column-card {
+    min-height: 20rem;
+  }
+  .column-card h4 {
+    font-size: 1rem;
+    padding-bottom: 2rem;
   }
 }
