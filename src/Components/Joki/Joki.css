@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+.section-jarlosix {
+  overflow-y: hidden;
+  max-height: 100vh;
+}
 .navbar-khusus {
   margin-left: 15%;
 }
@@ -26,8 +30,8 @@
   margin-bottom: 1.5rem;
 }
 .column-card {
-  min-height: 38rem;
-  max-height: 10rem;
+  min-height: 15rem;
+  max-height: 30rem;
   max-width: 20rem;
   transition: all 0.3s ease;
   position: relative;
@@ -37,13 +41,14 @@
   bottom: 0;
   left: 50%;
   border-radius: 10px;
-  top: 85%;
+  top: 80%;
   transform: translateX(-50%);
   text-align: center;
   width: 92%;
-  height: 15%;
+  height: 20%;
   color: white;
   font-weight: 700;
+  padding-top: 20px;
 }
 .column-card img {
   width: 100%;
@@ -53,15 +58,13 @@
   border-radius: 10px;
 }
 .cards1 img {
-  background-color: rgba(163, 164, 233, 0.6);
+  background-color: rgba(163, 164, 233, 0.3);
 }
 .cards1 h4 {
   background: linear-gradient(to top, rgb(137, 139, 241), transparent);
 }
 .cards2 img {
-  object-fit: cover;
-  object-position: -70px 20px;
-  background-color: rgba(231, 219, 44, 0.5);
+  background-color: rgba(231, 219, 44, 0.3);
 }
 .cards2 h4 {
   background: linear-gradient(to top, rgb(235, 224, 75), transparent);
@@ -73,7 +76,7 @@
   background: linear-gradient(to top, rgba(225, 75, 75), transparent);
 }
 .cards4 img {
-  background-color: rgba(163, 164, 233, 0.5);
+  background-color: rgba(163, 164, 233, 0.4);
 }
 .cards4 h4 {
   background: linear-gradient(to top, rgb(137, 139, 241), transparent);
@@ -106,8 +109,8 @@
   padding-left: 3rem;
   padding-right: 2rem;
 }
-.header-jarlosix .rows-list {
-  max-height: 70vh;
+.header-jarlosix {
+  max-height: 85vh;
   overflow: auto;
   overflow-x: hidden;
 }
@@ -192,7 +195,6 @@
   color: black;
   font-weight: 400;
 }
-
 @media (width <= 1110px) {
   .container-jarlosix .iconHeader img {
     margin-left: 90%;
@@ -206,61 +208,126 @@
   }
 }
 @media (width <= 768px) {
+  .row-list-joki {
+    max-width: 95%;
+  }
+  .header-jarlosix-text1 {
+    margin-left: -1rem;
+  }
+  .header-jarlosix-text1,
+  .header-jarlosix-text1 {
+    padding-left: 2rem;
+  }
+  .header-jarlosix {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
   .container-jarlosix .iconHeader img {
     display: none;
-  }
-  body {
-    height: 160vh;
   }
   .container-jarlosix {
     position: unset;
   }
-  .navbar-khusus {
-    margin-left: 0%;
-  }
   .jarlosix-left-image img {
     z-index: -99;
     width: 95%;
-    object-position: 0rem 0rem;
-    height: 12rem;
-    top: 6rem;
-    margin-left: 5%;
-    border-radius: 10px;
+    top: 1rem;
   }
   .container-jarlosix .iconHeader img {
     margin-top: 1rem;
   }
-  .header-jarlosix {
-    margin-top: 7rem;
-  }
   .row-list-joki {
-    max-width: 98%;
+    width: 100%;
   }
 }
-@media (width <= 505px) {
+@media (width <= 605px) {
   .header-jarlosix-text1 {
     font-size: 1.5rem;
-    letter-spacing: 3px;
   }
   .header-jarlosix-text-2 {
-    font-size: 1rem;
+    font-size: 0.8rem;
+  }
+  .header-jarlosix-fullstar {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+  }
+  .header-jarlosix-text1,
+  .header-jarlosix-text2 {
+    padding-left: 2rem;
+  }
+  .header-jarlosix {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  .container-jarlosix .iconHeader img {
+    display: none;
+  }
+  .container-jarlosix {
+    position: unset;
+  }
+  .jarlosix-left-image img {
+    z-index: -99;
+    width: 95%;
+    top: 1rem;
+  }
+  .container-jarlosix .iconHeader img {
+    margin-top: 1rem;
+  }
+  .row-list-joki {
+    width: 98%;
   }
   .row-list-joki p {
     font-size: 0.9rem;
+    font-weight: 100;
+    font-family: "Anton";
+    letter-spacing: 2px;
+    color: rgb(0, 0, 0);
   }
   .row-list-joki a {
-    font-size: 0.7rem;
+    background-color: #ab1c1c;
+    padding: 5px 8px 5px 8px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 0.6rem;
+    font-weight: 600;
   }
 }
-@media (width <= 893px) {
-  .cards2 img {
-    object-position: -20px 10px;
+@media (width <= 505px) {
+  .navbar-khusus p {
+    font-size: 0.8rem;
+    margin-right: 1.5rem;
   }
-  .column-card {
-    min-height: 20rem;
+  .jarlosix-left-image img {
+    margin-top: -7.65rem;
   }
-  .column-card h4 {
-    font-size: 1rem;
-    padding-bottom: 2rem;
+  .header-jarlosix-fullstar {
+    margin-left: 1rem;
+  }
+  .header-jarlosix-text1 {
+    font-size: 1.3rem;
+    letter-spacing: 3px;
+  }
+  .header-jarlosix-text-2 {
+    font-size: 0.8rem;
+  }
+  .row-list-joki p {
+    font-size: 0.8rem;
+    margin-left: -0.9rem;
+  }
+  .row-list-joki a {
+    background-color: #ab1c1c;
+    padding: 5px 8px 5px 8px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: lac;
+    font-size: 0.6rem;
+    font-weight: 600;
+  }
+  .row-note {
+    margin-left: -1.6rem;
+  }
+  .row-note .noted h3 {
+    font-size: 0.8rem;
   }
 }

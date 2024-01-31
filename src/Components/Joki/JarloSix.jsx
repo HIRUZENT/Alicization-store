@@ -15,10 +15,10 @@ const JarloSix = () => {
       <div className="container-fluid container-jarlosix">
         <IconContact />
         <div className="row row-jarlosix">
-          <div className="col-md-3 jarlosix-left-image">
+          <div className="col-3 jarlosix-left-image">
             <img src={bg1} alt="JarloSix images" />
           </div>
-          <div className="col-md-9 header-jarlosix">
+          <div className="col-9 header-jarlosix">
             <div className="row">
               <h1 className="header-jarlosix-text1">
                 Jarlio - <span>VI</span>
