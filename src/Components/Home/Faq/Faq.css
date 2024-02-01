@@ -158,8 +158,3 @@
     animation: headerFaq 1s ease;
   }
 }
-@media (width <= 400px) {
-  .iconHeader img {
-    display: none;
-  }
-}

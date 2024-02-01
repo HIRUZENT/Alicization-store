@@ -19,7 +19,7 @@ const Navbar = () => {
               <p onClick={() => navigasi("/faq")}>FAQ</p>
             </li>
             <li>
-              <p onClick={() => navigasi("/top-up")}>Contact</p>
+              <p onClick={() => navigasi("/contact")}>Contact</p>
             </li>
           </ul>
         </div>

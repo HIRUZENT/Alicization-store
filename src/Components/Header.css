@@ -73,8 +73,3 @@
     transition: all 0.3s ease;
   }
 }
-@media (width <= 400px) {
-  .containerHeader img {
-    display: none;
-  }
-}

@@ -1,0 +1,107 @@
+@keyframes side-contact-image {
+  from {
+    transform: translateX(5rem);
+    opacity: 0.7;
+  }
+  to {
+    transform: translateX(0rem);
+    opacity: 1;
+  }
+}
+@keyframes header-contact {
+  from{
+    scale: 0.5;
+  }
+  to{
+    scale: 1;
+  }
+}
+@keyframes column-sosmed{
+  from{
+    transform: translateX(-1.5rem);
+    opacity: 0.6;
+  }
+  to{
+    transform: translateX(0rem);
+    opacity: 1;
+  }
+}
+.container-contact {
+  max-height: 100%;
+}
+.container-list-contact {
+  padding: 5rem;
+}
+.contact-list #header-contact {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin-top: 2rem;
+  animation: header-contact 1s ease;
+}
+.column-contact {
+  margin-top: 1rem;
+  animation: column-sosmed 1s ease;
+}
+.contact-list #header-contact span {
+  color: #e14b4b;
+}
+.container-contact .img-contact img {
+  min-height: 91vh;
+  max-height: 20vh;
+  max-width: 100%;
+  object-fit: cover;
+  animation: side-contact-image 1s ease;
+}
+.contact-list #instagram-contact img {
+  aspect-ratio: 1/1;
+  width: 50px;
+  height: 50px;
+  margin-right: 2rem;
+}
+.contact-list #instagram-contact p {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+@media (width <= 992px) {
+  .contact-list #instagram-contact p {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-top: 0.6rem;
+  }
+}
+@media (width <= 768px) {
+  .container-contact .row-image-contact .img-contact {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: -3rem 0rem 0rem 0rem;
+  }
+  .container-contact .img-contact img {
+    min-height: 30%;
+    max-height: 80%;
+  }
+}
+@media (width <= 520px) {
+  .contact-list #header-contact {
+    font-size: 1.5rem;
+    margin-top: -1rem;
+  }
+  .container-list-contact {
+    padding: 2rem;
+    margin-top: -1rem;
+  }
+  .contact-list #instagram-contact img {
+    aspect-ratio: 1/1;
+    width: 30px;
+    height: 30px;
+    margin-right: 1rem;
+  }
+  .contact-list #instagram-contact p {
+    font-size: 0.9rem;
+    margin-top: 5px;
+  }
+}
