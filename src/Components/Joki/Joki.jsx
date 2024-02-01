@@ -35,19 +35,19 @@ const Joki = () => {
           <div className="col-md-4 col-lg-3 col-sm-4 col-6 d-flex column-card cards1">
             <a href="/joki/jarlo-six" className="d-flex">
               <img src={herta} alt="Card_2" />
-              <h4>Jarlio-VI</h4>
+              <h4>JARLIO-VI</h4>
             </a>
           </div>
           <div className="col-md-4 col-lg-3 col-sm-4 col-6 d-flex column-card cards2">
             <a href="/joki/luofu" className="d-flex">
               <img src={hook} alt="Card_2" />
-              <h4>The Xoanzhou Loufu</h4>
+              <h4>THE XIANZHOU LOUFU</h4>
             </a>
           </div>
           <div className="col-md-4 col-lg-3 col-sm-4 col-6 d-flex column-card cards3">
-            <a href="/" className="d-flex">
+            <a href="/joki/memory-of-chaos" className="d-flex">
               <img src={himeko} alt="Card_3" />
-              <h4>Memory of Chaos</h4>
+              <h4>MEMORY OF CHAOS</h4>
             </a>
           </div>
           <div className="col-md-4 col-lg-3 col-sm-4 col-6 d-flex column-card cards4">

@@ -1,9 +1,8 @@
-
 import Navbar from "../../Components/Navbar";
 import IconContact from "../IconContact";
-import bg1 from "../Images/bg1.jpeg";
+import bgChaos from "../Images/bg-chaos.jpg";
 import "../Home/Faq/Faq.css";
-const JarloSix = (props) => {
+const Chaos = (props) => {
   return (
     <>
       <div className="navbar-khusus">
@@ -13,12 +12,12 @@ const JarloSix = (props) => {
         <IconContact />
         <div className="row row-jarlosix">
           <div className="col-3 jarlosix-left-image">
-            <img src={bg1} alt="JarloSix images" />
+            <img src={bgChaos} alt="JarloSix images" style={{ objectPosition: "48% 0px" }} />
           </div>
           <div className="col-9 header-jarlosix">
             <div className="row">
               <h1 className="header-jarlosix-text1">
-                Jarlio - <span>VI</span>
+                Memory of <span>Chaos</span>
               </h1>
             </div>
             <div className="row header-jarlosix-text-2">
@@ -33,10 +32,10 @@ const JarloSix = (props) => {
               <div className="row row-list-joki">
                 <div className="col-12 d-flex">
                   <p>
-                    Stage 1 - 4 Per star <span>( 4k )</span>
+                    Stage 1 - 3 Per star <span>( 4k )</span>
                   </p>
                   <div>
-                    <a href={props.url} onClick={() => props.setText("Hallo kak, aku mau order *Forgotten Hall* Jarlio-VI Stage 1 - 4 Per Star")} target="_blank" rel="noopener noreferrer">
+                    <a href={props.url} onClick={() => props.setText("Hallo kak, aku mau order *Forgotten Hall* The Xianzhou Loufu Stage 1 - 3 Per Star")} target="_blank" rel="noopener noreferrer">
                       Order
                     </a>
                   </div>
@@ -45,22 +44,10 @@ const JarloSix = (props) => {
               <div className="row row-list-joki">
                 <div className="col-12 d-flex">
                   <p>
-                    Stage 5 - 9 Per star <span>( 7k )</span>
+                    Stage 4 - 6 Per star <span>( 8k )</span>
                   </p>
                   <div>
-                    <a href={props.url} onClick={() => props.setText("Hallo kak, aku mau order *Forgotten Hall* Jarlio-VI Stage 5 - 9 Per Star")} target="_blank" rel="noopener noreferrer">
-                      Order
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="row row-list-joki">
-                <div className="col-12 d-flex">
-                  <p>
-                    Stage 10 - 15 Per star <span>( 10k )</span>
-                  </p>
-                  <div>
-                    <a href={props.url} onClick={() => props.setText("Hallo kak, aku mau order *Forgotten Hall* Jarlio-VI Stage 10 - 15 Per Star")} target="_blank" rel="noopener noreferrer">
+                    <a href={props.url} onClick={() => props.setText("Hallo kak, aku mau order *Forgotten Hall* The Xianzhou Loufu Stage 4 - 6 Per Star")} target="_blank" rel="noopener noreferrer">
                       Order
                     </a>
                   </div>
@@ -74,10 +61,10 @@ const JarloSix = (props) => {
               <div className="row row-list-joki">
                 <div className="col-12 d-flex">
                   <p>
-                    Stage 1 - 4 Per Stage <span>( 10k )</span>
+                    Stage 1 - 3 Per Stage <span>( 12k )</span>
                   </p>
                   <div>
-                    <a href={props.url} onClick={() => props.setText("Hallo kak, aku mau order *Forgotten Hall* Jarlio-VI Stage 1 - 4 Per Stage")} target="_blank" rel="noopener noreferrer">
+                    <a href={props.url} onClick={() => props.setText("Hallo kak, aku mau order *Forgotten Hall* The Xianzhou Loufu Stage 1 - 3 Per Stage")} target="_blank" rel="noopener noreferrer">
                       Order
                     </a>
                   </div>
@@ -86,22 +73,10 @@ const JarloSix = (props) => {
               <div className="row row-list-joki">
                 <div className="col-12 d-flex">
                   <p>
-                    Stage 5 - 9 Per Stage <span>( 20k )</span>
+                    Stage 4 - 6 Per Stage <span>( 22k )</span>
                   </p>
                   <div>
-                    <a href={props.url} onClick={() => props.setText("Hallo kak, aku mau order *Forgotten Hall* Jarlio-VI Stage 5 - 9 Per Stage")} target="_blank" rel="noopener noreferrer">
-                      Order
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="row row-list-joki">
-                <div className="col-12 d-flex">
-                  <p>
-                    Stage 10 - 15 Per Stage <span>( 30k )</span>
-                  </p>
-                  <div>
-                    <a href={props.url} onClick={() => props.setText("Hallo kak, aku mau order *Forgotten Hall* Jarlio-VI Stage 10 - 15 Per Stage")} target="_blank" rel="noopener noreferrer">
+                    <a href={props.url} onClick={() => props.setText("Hallo kak, aku mau order *Forgotten Hall* The Xianzhou Loufu Stage 4 - 6 Per Stage")} target="_blank" rel="noopener noreferrer">
                       Order
                     </a>
                   </div>
@@ -122,4 +97,4 @@ const JarloSix = (props) => {
     </>
   );
 };
-export default JarloSix;
+export default Chaos;

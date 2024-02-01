@@ -1,12 +1,8 @@
-import React, { useState } from "react";
 import Navbar from "../../Components/Navbar";
 import IconContact from "../IconContact";
 import bgLuofu from "../Images/bg-luofu.jpeg";
 import "../Home/Faq/Faq.css";
-const Luofu = () => {
-  const [order, setOrder] = useState("");
-  const encodeMessage = encodeURI(order);
-  const whatsAppUrl = `https://wa.me/6289606230316?text=${encodeMessage}`;
+const Luofu = (props) => {
   return (
     <>
       <div className="navbar-khusus">
@@ -16,7 +12,7 @@ const Luofu = () => {
         <IconContact />
         <div className="row row-jarlosix">
           <div className="col-3 jarlosix-left-image">
-            <img src={bgLuofu} alt="JarloSix images" style={{ objectPosition: "12% 0px" }}/>
+            <img src={bgLuofu} alt="JarloSix images" style={{ objectPosition: "12% 0px" }} />
           </div>
           <div className="col-9 header-jarlosix">
             <div className="row">
@@ -36,10 +32,10 @@ const Luofu = () => {
               <div className="row row-list-joki">
                 <div className="col-12 d-flex">
                   <p>
-                    Stage 1 - 4 Per star <span>( 4k )</span>
+                    Stage 1 - 3 Per star <span>( 4k )</span>
                   </p>
                   <div>
-                    <a href={whatsAppUrl} onClick={() => setOrder("Hallo kak, aku mau order *Forgotten Hall* Jarlio-VI Stage 1 - 4 Per Star")} target="_blank" rel="noopener noreferrer">
+                    <a href={props.url} onClick={() => props.setText("Hallo kak, aku mau order *Forgotten Hall* The Xianzhou Loufu Stage 1 - 3 Per Star")} target="_blank" rel="noopener noreferrer">
                       Order
                     </a>
                   </div>
@@ -48,22 +44,10 @@ const Luofu = () => {
               <div className="row row-list-joki">
                 <div className="col-12 d-flex">
                   <p>
-                    Stage 5 - 9 Per star <span>( 7k )</span>
+                    Stage 4 - 6 Per star <span>( 8k )</span>
                   </p>
                   <div>
-                    <a href={whatsAppUrl} onClick={() => setOrder("Hallo kak, aku mau order *Forgotten Hall* Jarlio-VI Stage 5 - 9 Per Star")} target="_blank" rel="noopener noreferrer">
-                      Order
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="row row-list-joki">
-                <div className="col-12 d-flex">
-                  <p>
-                    Stage 10 - 15 Per star <span>( 10k )</span>
-                  </p>
-                  <div>
-                    <a href={whatsAppUrl} onClick={() => setOrder("Hallo kak, aku mau order *Forgotten Hall* Jarlio-VI Stage 10 - 15 Per Star")} target="_blank" rel="noopener noreferrer">
+                    <a href={props.url} onClick={() => props.setText("Hallo kak, aku mau order *Forgotten Hall* The Xianzhou Loufu Stage 4 - 6 Per Star")} target="_blank" rel="noopener noreferrer">
                       Order
                     </a>
                   </div>
@@ -77,10 +61,10 @@ const Luofu = () => {
               <div className="row row-list-joki">
                 <div className="col-12 d-flex">
                   <p>
-                    Stage 1 - 4 Per Stage <span>( 10k )</span>
+                    Stage 1 - 3 Per Stage <span>( 12k )</span>
                   </p>
                   <div>
-                    <a href={whatsAppUrl} onClick={() => setOrder("Hallo kak, aku mau order *Forgotten Hall* Jarlio-VI Stage 1 - 4 Per Stage")} target="_blank" rel="noopener noreferrer">
+                    <a href={props.url} onClick={() => props.setText("Hallo kak, aku mau order *Forgotten Hall* The Xianzhou Loufu Stage 1 - 3 Per Stage")} target="_blank" rel="noopener noreferrer">
                       Order
                     </a>
                   </div>
@@ -89,22 +73,10 @@ const Luofu = () => {
               <div className="row row-list-joki">
                 <div className="col-12 d-flex">
                   <p>
-                    Stage 5 - 9 Per Stage <span>( 20k )</span>
+                    Stage 4 - 6 Per Stage <span>( 22k )</span>
                   </p>
                   <div>
-                    <a href={whatsAppUrl} onClick={() => setOrder("Hallo kak, aku mau order *Forgotten Hall* Jarlio-VI Stage 5 - 9 Per Stage")} target="_blank" rel="noopener noreferrer">
-                      Order
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="row row-list-joki">
-                <div className="col-12 d-flex">
-                  <p>
-                    Stage 10 - 15 Per Stage <span>( 30k )</span>
-                  </p>
-                  <div>
-                    <a href={whatsAppUrl} onClick={() => setOrder("Hallo kak, aku mau order *Forgotten Hall* Jarlio-VI Stage 10 - 15 Per Stage")} target="_blank" rel="noopener noreferrer">
+                    <a href={props.url} onClick={() => props.setText("Hallo kak, aku mau order *Forgotten Hall* The Xianzhou Loufu Stage 4 - 6 Per Stage")} target="_blank" rel="noopener noreferrer">
                       Order
                     </a>
                   </div>
