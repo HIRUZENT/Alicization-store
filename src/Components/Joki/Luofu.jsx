@@ -34,7 +34,7 @@ const Luofu = (props) => {
                   <p>
                     Stage 1 - 3 Per star <span>( 4k )</span>
                   </p>
-                  <div>
+                  <div style={{ transform: "translateY(-8px)" }}>
                     <a href={props.url} onClick={() => props.setText("Hallo kak, aku mau order *Forgotten Hall* The Xianzhou Loufu Stage 1 - 3 Per Star")} target="_blank" rel="noopener noreferrer">
                       Order
                     </a>
@@ -46,7 +46,7 @@ const Luofu = (props) => {
                   <p>
                     Stage 4 - 6 Per star <span>( 8k )</span>
                   </p>
-                  <div>
+                  <div style={{ transform: "translateY(-8px)" }}>
                     <a href={props.url} onClick={() => props.setText("Hallo kak, aku mau order *Forgotten Hall* The Xianzhou Loufu Stage 4 - 6 Per Star")} target="_blank" rel="noopener noreferrer">
                       Order
                     </a>
@@ -63,7 +63,7 @@ const Luofu = (props) => {
                   <p>
                     Stage 1 - 3 Per Stage <span>( 12k )</span>
                   </p>
-                  <div>
+                  <div style={{ transform: "translateY(-8px)" }}>
                     <a href={props.url} onClick={() => props.setText("Hallo kak, aku mau order *Forgotten Hall* The Xianzhou Loufu Stage 1 - 3 Per Stage")} target="_blank" rel="noopener noreferrer">
                       Order
                     </a>
@@ -75,7 +75,7 @@ const Luofu = (props) => {
                   <p>
                     Stage 4 - 6 Per Stage <span>( 22k )</span>
                   </p>
-                  <div>
+                  <div style={{ transform: "translateY(-8px)" }}>
                     <a href={props.url} onClick={() => props.setText("Hallo kak, aku mau order *Forgotten Hall* The Xianzhou Loufu Stage 4 - 6 Per Stage")} target="_blank" rel="noopener noreferrer">
                       Order
                     </a>

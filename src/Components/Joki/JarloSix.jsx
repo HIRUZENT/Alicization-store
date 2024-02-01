@@ -35,7 +35,7 @@ const JarloSix = (props) => {
                   <p>
                     Stage 1 - 4 Per star <span>( 4k )</span>
                   </p>
-                  <div>
+                  <div style={{ transform: "translateY(-8px)" }}>
                     <a href={props.url} onClick={() => props.setText("Hallo kak, aku mau order *Forgotten Hall* Jarlio-VI Stage 1 - 4 Per Star")} target="_blank" rel="noopener noreferrer">
                       Order
                     </a>
@@ -47,7 +47,7 @@ const JarloSix = (props) => {
                   <p>
                     Stage 5 - 9 Per star <span>( 7k )</span>
                   </p>
-                  <div>
+                  <div style={{ transform: "translateY(-8px)" }}>
                     <a href={props.url} onClick={() => props.setText("Hallo kak, aku mau order *Forgotten Hall* Jarlio-VI Stage 5 - 9 Per Star")} target="_blank" rel="noopener noreferrer">
                       Order
                     </a>
@@ -59,7 +59,7 @@ const JarloSix = (props) => {
                   <p>
                     Stage 10 - 15 Per star <span>( 10k )</span>
                   </p>
-                  <div>
+                  <div style={{ transform: "translateY(-8px)" }}>
                     <a href={props.url} onClick={() => props.setText("Hallo kak, aku mau order *Forgotten Hall* Jarlio-VI Stage 10 - 15 Per Star")} target="_blank" rel="noopener noreferrer">
                       Order
                     </a>
@@ -76,7 +76,7 @@ const JarloSix = (props) => {
                   <p>
                     Stage 1 - 4 Per Stage <span>( 10k )</span>
                   </p>
-                  <div>
+                  <div style={{ transform: "translateY(-8px)" }}>
                     <a href={props.url} onClick={() => props.setText("Hallo kak, aku mau order *Forgotten Hall* Jarlio-VI Stage 1 - 4 Per Stage")} target="_blank" rel="noopener noreferrer">
                       Order
                     </a>
@@ -88,7 +88,7 @@ const JarloSix = (props) => {
                   <p>
                     Stage 5 - 9 Per Stage <span>( 20k )</span>
                   </p>
-                  <div>
+                  <div style={{ transform: "translateY(-8px)" }}>
                     <a href={props.url} onClick={() => props.setText("Hallo kak, aku mau order *Forgotten Hall* Jarlio-VI Stage 5 - 9 Per Stage")} target="_blank" rel="noopener noreferrer">
                       Order
                     </a>
@@ -100,7 +100,7 @@ const JarloSix = (props) => {
                   <p>
                     Stage 10 - 15 Per Stage <span>( 30k )</span>
                   </p>
-                  <div>
+                  <div style={{ transform: "translateY(-8px)" }}>
                     <a href={props.url} onClick={() => props.setText("Hallo kak, aku mau order *Forgotten Hall* Jarlio-VI Stage 10 - 15 Per Stage")} target="_blank" rel="noopener noreferrer">
                       Order
                     </a>
