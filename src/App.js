@@ -9,6 +9,7 @@ import Joki from "./Components/Joki/Joki.jsx";
 import JarloSix from "./Components/Joki/JarloSix";
 import Luofu from "./Components/Joki/Luofu";
 import Chaos from "./Components/Joki/Chaos";
+import Trailblaze from "./Components/Joki/FarmRelic/Trailblaze";
 function App() {
   const [order, setOrder] = useState("");
   const encodeMessage = encodeURI(order);
@@ -18,13 +19,17 @@ function App() {
       <Router>
         <Routes>
           <Route exact path="/" element={<Home />} />
+          {/* MAIN MENU */}
           <Route exact path="/joki" element={<Joki />} />
           <Route exact path="/faq" element={<Faq />} />
           <Route exact path="/top-up" element={<Topup />} />
           <Route exact path="/contact" element={<Contact />} />
+          {/* JOKI JARILO */}
           <Route exact path="/joki/jarlo-six" element={<JarloSix setText={setOrder} url={whatsAppUrl} />} />
           <Route exact path="/joki/luofu" element={<Luofu setText={setOrder} url={whatsAppUrl} />} />
           <Route exact path="/joki/memory-of-chaos" element={<Chaos setText={setOrder} url={whatsAppUrl} />} />
+          {/* JOKI FARM RELIC */}
+          <Route exact path="/joki/trailblaze" element={<Trailblaze />} />
         </Routes>
       </Router>
     </div>

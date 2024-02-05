@@ -18,7 +18,7 @@ const JarloSix = (props) => {
           <div className="col-9 header-jarlosix">
             <div className="row">
               <h1 className="header-jarlosix-text1">
-                Jarlio - <span>VI</span>
+                Jarilo - <span>VI</span>
               </h1>
             </div>
             <div className="row header-jarlosix-text-2">
@@ -36,7 +36,7 @@ const JarloSix = (props) => {
                     Stage 1 - 4 Per star <span>( 4k )</span>
                   </p>
                   <div style={{ transform: "translateY(-8px)" }}>
-                    <a href={props.url} onClick={() => props.setText("Hallo kak, aku mau order *Forgotten Hall* Jarlio-VI Stage 1 - 4 Per Star")} target="_blank" rel="noopener noreferrer">
+                    <a href={props.url} onClick={() => props.setText("Hallo kak, aku mau order *Forgotten Hall* Jarilo-VI Stage 1 - 4 Per Star")} target="_blank" rel="noopener noreferrer">
                       Order
                     </a>
                   </div>
@@ -48,7 +48,7 @@ const JarloSix = (props) => {
                     Stage 5 - 9 Per star <span>( 7k )</span>
                   </p>
                   <div style={{ transform: "translateY(-8px)" }}>
-                    <a href={props.url} onClick={() => props.setText("Hallo kak, aku mau order *Forgotten Hall* Jarlio-VI Stage 5 - 9 Per Star")} target="_blank" rel="noopener noreferrer">
+                    <a href={props.url} onClick={() => props.setText("Hallo kak, aku mau order *Forgotten Hall* Jarilo-VI Stage 5 - 9 Per Star")} target="_blank" rel="noopener noreferrer">
                       Order
                     </a>
                   </div>
@@ -60,7 +60,7 @@ const JarloSix = (props) => {
                     Stage 10 - 15 Per star <span>( 10k )</span>
                   </p>
                   <div style={{ transform: "translateY(-8px)" }}>
-                    <a href={props.url} onClick={() => props.setText("Hallo kak, aku mau order *Forgotten Hall* Jarlio-VI Stage 10 - 15 Per Star")} target="_blank" rel="noopener noreferrer">
+                    <a href={props.url} onClick={() => props.setText("Hallo kak, aku mau order *Forgotten Hall* Jarilo-VI Stage 10 - 15 Per Star")} target="_blank" rel="noopener noreferrer">
                       Order
                     </a>
                   </div>
@@ -77,7 +77,7 @@ const JarloSix = (props) => {
                     Stage 1 - 4 Per Stage <span>( 10k )</span>
                   </p>
                   <div style={{ transform: "translateY(-8px)" }}>
-                    <a href={props.url} onClick={() => props.setText("Hallo kak, aku mau order *Forgotten Hall* Jarlio-VI Stage 1 - 4 Per Stage")} target="_blank" rel="noopener noreferrer">
+                    <a href={props.url} onClick={() => props.setText("Hallo kak, aku mau order *Forgotten Hall* Jarilo-VI Stage 1 - 4 Per Stage")} target="_blank" rel="noopener noreferrer">
                       Order
                     </a>
                   </div>
@@ -89,7 +89,7 @@ const JarloSix = (props) => {
                     Stage 5 - 9 Per Stage <span>( 20k )</span>
                   </p>
                   <div style={{ transform: "translateY(-8px)" }}>
-                    <a href={props.url} onClick={() => props.setText("Hallo kak, aku mau order *Forgotten Hall* Jarlio-VI Stage 5 - 9 Per Stage")} target="_blank" rel="noopener noreferrer">
+                    <a href={props.url} onClick={() => props.setText("Hallo kak, aku mau order *Forgotten Hall* Jarilo-VI Stage 5 - 9 Per Stage")} target="_blank" rel="noopener noreferrer">
                       Order
                     </a>
                   </div>
@@ -101,7 +101,7 @@ const JarloSix = (props) => {
                     Stage 10 - 15 Per Stage <span>( 30k )</span>
                   </p>
                   <div style={{ transform: "translateY(-8px)" }}>
-                    <a href={props.url} onClick={() => props.setText("Hallo kak, aku mau order *Forgotten Hall* Jarlio-VI Stage 10 - 15 Per Stage")} target="_blank" rel="noopener noreferrer">
+                    <a href={props.url} onClick={() => props.setText("Hallo kak, aku mau order *Forgotten Hall* Jarilo-VI Stage 10 - 15 Per Stage")} target="_blank" rel="noopener noreferrer">
                       Order
                     </a>
                   </div>
