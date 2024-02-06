@@ -48,8 +48,8 @@
   color: #e14b4b;
 }
 .container-contact .img-contact img {
-  min-height: 91vh;
-  max-height: 91vh;
+  min-height: 100vh;
+  max-height: 100dvh;
   max-width: 100%;
   min-width: 50%;
   object-fit: cover;
