@@ -49,8 +49,9 @@
 }
 .container-contact .img-contact img {
   min-height: 91vh;
-  max-height: 20vh;
+  max-height: 91vh;
   max-width: 100%;
+  min-width: 50%;
   object-fit: cover;
   animation: side-contact-image 1s ease;
 }
