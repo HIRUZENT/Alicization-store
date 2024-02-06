@@ -9,19 +9,19 @@
   }
 }
 @keyframes header-contact {
-  from{
+  from {
     scale: 0.5;
   }
-  to{
+  to {
     scale: 1;
   }
 }
-@keyframes column-sosmed{
-  from{
+@keyframes column-sosmed {
+  from {
     transform: translateX(-1.5rem);
     opacity: 0.6;
   }
-  to{
+  to {
     transform: translateX(0rem);
     opacity: 1;
   }
@@ -47,9 +47,12 @@
 .contact-list #header-contact span {
   color: #e14b4b;
 }
+.container-contact .img-contact {
+  overflow: auto;
+}
 .container-contact .img-contact img {
   min-height: 100vh;
-  max-height: 100dvh;
+  min-height: 100dvh;
   max-width: 100%;
   min-width: 50%;
   object-fit: cover;
@@ -79,6 +82,7 @@
     justify-content: center;
     align-items: center;
     display: flex;
+    margin: -3rem 0rem 0rem 0rem;
   }
   .container-contact .img-contact img {
     min-height: 30%;

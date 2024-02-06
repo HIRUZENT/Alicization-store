@@ -1,4 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@keyframes gilang{
+  0%{
+    transform: translateX(-20%);
+  } 50%{
+    transform: translateX(40%);
+  } 100%{
+    transform: translateX(-20%);
+  }
+}
 .section-jarlosix {
   overflow-y: hidden;
 }
@@ -45,6 +54,7 @@
   transform: translateX(-50%);
   text-align: center;
   width: 92%;
+  padding: 0px 20px 0px 20px;
   height: 20%;
   color: white;
   font-weight: 700;
@@ -248,16 +258,12 @@
     font-size: 0.8rem;
     margin-left: -0.8rem;
   }
-  .rows-list-trailblaze p{
+  .rows-list-trailblaze p {
     margin-left: -0.5rem;
     font-size: 0.9rem;
   }
 }
 @media (width <= 768px) {
-  /* .column-card {
-    min-height: 25rem;
-    max-height: 30rem;
-  } */
   .row-list-joki {
     max-width: 95%;
   }
@@ -299,7 +305,7 @@
     margin-top: 1rem;
     font-size: 1.1rem;
   }
-  .header-jarlosix-text1{
+  .header-jarlosix-text1 {
     padding-left: 2rem;
   }
   .header-jarlosix-text-2 {
@@ -340,6 +346,15 @@
   }
 }
 @media (width <= 505px) {
+  .column-card {
+    min-height: 25rem;
+    max-height: 30rem;
+  }
+  .column-card h4 {
+    width: 88%;
+    font-size: 0.9rem;
+    letter-spacing: 3px;
+  }
   .navbar-khusus p {
     font-size: 0.8rem;
   }
