@@ -21,7 +21,7 @@ const Contact = () => {
             <div className="col-md-9 contact-list">
               <div className="row">
                 <h1 id="header-contact">
-                  Kontak <span>Kamih</span>
+                  Kontak <span>Kami</span>
                 </h1>
               </div>
               <div className="container container-list-contact">

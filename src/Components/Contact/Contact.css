@@ -79,7 +79,6 @@
     justify-content: center;
     align-items: center;
     display: flex;
-    margin: -3rem 0rem 0rem 0rem;
   }
   .container-contact .img-contact img {
     min-height: 30%;
