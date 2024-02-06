@@ -70,13 +70,13 @@ const Joki = () => {
             </a>
           </div>
           <div className="col-md-4 col-lg-3 col-sm-4 col-6 d-flex column-card cards2">
-            <a href="/" className="d-flex">
+            <a href="/joki/Standard" className="d-flex">
               <img src={traiblazers} alt="Card_2" />
-              <h4>TP WITH FUEL</h4>
+              <h4>STANDARD</h4>
             </a>
           </div>
           <div className="col-md-4 col-lg-3 col-sm-4 col-6 d-flex column-card cards3">
-            <a href="/" className="d-flex">
+            <a href="/joki/PlanarSet" className="d-flex">
               <img src={charlote} alt="Card_3" />
               <h4>PLANAR SET</h4>
             </a>

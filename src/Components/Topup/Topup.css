@@ -1,17 +1,49 @@
-.row-back-topup{
-    margin: 25px 0px 0px 25px;
+.row-back-topup {
+  font-style: italic;
+  margin: 25px 0px 0px 25px;
 }
-.row-back-topup h1{
-    font-weight: 700;
+.row-back-topup h1 {
+  font-weight: 700;
+  font-size: 1.5rem;
 }
-.container-topup{
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+.container-topup {
+  height: 90dvh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
-.container-topup h1{
-    font-weight: 700;
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: 3px;
+.container-topup h1 {
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 3px;
+}
+.img-falzee {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.img-falzee img {
+  opacity: 0.1;
+  width: 30%;
+  background-color: black;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 5px;
+}
+.col-collab {
+  text-align: center;
+  margin-top: 2rem;
+}
+.col-collab p {
+  font-size: 1.5rem;
+  font-weight: 800;
+  font-family: "Poppins";
+}
+.col-collab h6 {
+  opacity: 0.1;
+  font-size: 1.2rem;
+  font-style: italic;
+  text-decoration: line-through;
+  font-weight: 700;
 }

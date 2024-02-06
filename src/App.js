@@ -10,6 +10,8 @@ import JarloSix from "./Components/Joki/JarloSix";
 import Luofu from "./Components/Joki/Luofu";
 import Chaos from "./Components/Joki/Chaos";
 import Trailblaze from "./Components/Joki/FarmRelic/Trailblaze";
+import PlanarSet from "./Components/Joki/FarmRelic/PlanarSet";
+import Standard from "./Components/Joki/FarmRelic/Standard";
 function App() {
   const [order, setOrder] = useState("");
   const encodeMessage = encodeURI(order);
@@ -29,7 +31,9 @@ function App() {
           <Route exact path="/joki/luofu" element={<Luofu setText={setOrder} url={whatsAppUrl} />} />
           <Route exact path="/joki/memory-of-chaos" element={<Chaos setText={setOrder} url={whatsAppUrl} />} />
           {/* JOKI FARM RELIC */}
-          <Route exact path="/joki/trailblaze" element={<Trailblaze />} />
+          <Route exact path="/joki/trailblaze" element={<Trailblaze setText={setOrder} url={whatsAppUrl} />} />
+          <Route exact path="/joki/PlanarSet" element={<PlanarSet setText={setOrder} url={whatsAppUrl} />} />
+          <Route exact path="/joki/Standard" element={<Standard setText={setOrder} url={whatsAppUrl} />} />
         </Routes>
       </Router>
     </div>

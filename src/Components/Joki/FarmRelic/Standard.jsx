@@ -1,8 +1,8 @@
-import Navbar from "../../../Components/Navbar";
+import Navbar from "../../Navbar";
 import IconContact from "../../IconContact";
-import bgtrailblaze from "../../Images/bgtrailblaze.jpg";
+import bgStandard from "../../Images/bg-luofu.jpeg";
 import "../../Home/Faq/Faq.css";
-const Trailblaze = (props) => {
+const Standard = (props) => {
   return (
     <>
       <div className="navbar-khusus">
@@ -12,22 +12,22 @@ const Trailblaze = (props) => {
         <IconContact />
         <div className="row row-jarlosix">
           <div className="col-3 jarlosix-left-image">
-            <img src={bgtrailblaze} alt="JarloSix images" style={{ objectPosition: "70%" }} />
+            <img src={bgStandard} alt="JarloSix images" style={{ objectPosition: "47%" }} />
           </div>
           <div className="col-9 header-jarlosix">
             <div className="row">
               <h1 className="header-jarlosix-text1">
-                TRAILBLAZE <span>POWER</span>
+                STAND<span>AR</span>
               </h1>
             </div>
-            <div className="col-12 rows-list rows-list-trailblaze">
+            <div className="col-12 rows-list rows-list-Standard">
               <div className="row row-list-joki">
                 <div className="col-12 d-flex">
                   <p>
-                    Farm relic sesuai request customer <span>( 5k )</span>
+                    Farm relic sesuai request customer <span>( 8k )</span>
                   </p>
                   <div style={{ transform: "translateY(-8px)" }}>
-                    <a style={{ color: "white" }} href={props.url} onClick={() => props.setText("Hallo kak, aku mau order *Farm Relic* TRAILBLAZE POWER")} target="_blank" rel="noopener noreferrer">
+                    <a style={{ color: "white" }} href={props.url} onClick={() => props.setText("Hallo kak, aku mau order *STANDAR* Farm Relic")} target="_blank" rel="noopener noreferrer">
                       Order
                     </a>
                   </div>
@@ -35,7 +35,7 @@ const Trailblaze = (props) => {
               </div>
               <div className="col-12 header-farm-relic">
                 <h6>
-                  <span>*</span> Reserved Trailblaze Power bisa digunakan disini (opsional)
+                  <span>*</span> Reserved TP dan Fuel akan digunakan di menu ini (opsional)
                 </h6>
               </div>
               <div className="row d-flex row-note">
@@ -54,4 +54,4 @@ const Trailblaze = (props) => {
     </>
   );
 };
-export default Trailblaze;
+export default Standard;
