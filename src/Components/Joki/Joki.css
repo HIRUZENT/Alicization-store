@@ -127,7 +127,8 @@
   padding-right: 2rem;
 }
 .header-jarlosix {
-  max-height: 85svh;
+  max-height: 85vh;
+  max-height: 95dvh;
   overflow: auto;
   overflow-x: hidden;
 }
