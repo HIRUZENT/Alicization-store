@@ -17,7 +17,7 @@ const Footer = () =>{
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos nesciunt magnam ut inventore sint, veritatis animi quia ipsa quibusdam porro.</p>
             </div>
             <div className="col-md-3 contactList">
-              {/* <ul>
+              <ul>
                 <li>
                   <a href="/" className="d-flex">
                     <i class="fa-brands fa-instagram"></i>
@@ -33,7 +33,7 @@ const Footer = () =>{
                 <li>
                   <a href="/">wibu</a>
                 </li>
-              </ul> */}
+              </ul>
             </div>
           </div>
         </div>

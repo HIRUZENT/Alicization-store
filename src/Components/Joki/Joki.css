@@ -8,8 +8,12 @@
     transform: translateX(-20%);
   }
 }
+.conJoki{
+  overflow-x: hidden;
+}
 .section-jarlosix {
   overflow-y: hidden;
+  overflow-x: hidden;
 }
 .navbar-khusus {
   margin-left: 20%;
