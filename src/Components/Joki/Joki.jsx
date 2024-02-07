@@ -20,7 +20,7 @@ const Joki = () => {
     })
   })
   return (
-    <div className="conJoki">
+    <>
       <Navbar />
       {/* <IconContact/> */}
       <div className="container">
@@ -130,7 +130,7 @@ const Joki = () => {
       <div className="container-fluid">
         <Footer />
       </div>
-    </div>
+    </>
   );
 };
 export default Joki;

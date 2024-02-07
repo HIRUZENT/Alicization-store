@@ -1,14 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
-@keyframes gilang{
-  0%{
+@keyframes gilang {
+  0% {
     transform: translateX(-20%);
-  } 50%{
+  }
+  50% {
     transform: translateX(40%);
-  } 100%{
+  }
+  100% {
     transform: translateX(-20%);
   }
 }
-.conJoki{
+.conJoki {
   overflow-x: hidden;
 }
 .section-jarlosix {
@@ -43,10 +45,10 @@
   margin-bottom: 1.5rem;
 }
 .column-card {
+  transition: all 0.3s ease;
   min-height: 35rem;
   max-height: 40rem;
   max-width: 20rem;
-  transition: all 0.3s ease;
   position: relative;
 }
 .column-card h4 {
@@ -64,6 +66,7 @@
   font-weight: 700;
   padding-top: 10px;
   font-size: 1rem;
+  letter-spacing: 3px;
 }
 .column-card img {
   width: 100%;
@@ -98,7 +101,7 @@
   background: linear-gradient(to top, rgb(137, 139, 241), transparent);
 }
 .column-card:hover {
-  scale: 1.2;
+  scale: 1.1;
   transition: all 0.3s ease;
 }
 /* Halaman jarlo six */
@@ -357,7 +360,6 @@
   .column-card h4 {
     width: 88%;
     font-size: 0.9rem;
-    letter-spacing: 3px;
   }
   .navbar-khusus p {
     font-size: 0.8rem;

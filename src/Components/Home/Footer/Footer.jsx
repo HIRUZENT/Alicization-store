@@ -20,7 +20,7 @@ const Footer = () =>{
               <ul>
                 <li>
                   <a href="/" className="d-flex">
-                    <i class="fa-brands fa-instagram"></i>
+                    <i className="fa-brands fa-instagram"></i>
                     <p>@alc_store</p>
                   </a>
                 </li>
