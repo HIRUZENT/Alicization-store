@@ -118,6 +118,7 @@
   width: 20%;
   top: 0;
   position: fixed;
+  height: 100vh;
   height: 100svh;
   object-fit: cover;
 }
