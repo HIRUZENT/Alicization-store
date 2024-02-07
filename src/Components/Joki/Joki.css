@@ -118,8 +118,8 @@
   width: 20%;
   top: 0;
   position: fixed;
-  height: 100vh;
-  height: 100svh;
+  height: 107vh;
+  height: 107dvh;
   object-fit: cover;
 }
 .header-jarlosix {
