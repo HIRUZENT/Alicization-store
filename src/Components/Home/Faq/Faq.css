@@ -37,6 +37,9 @@
     transform: translateY(-1rem);
   }
 }
+.container-content-faq{
+  min-height: 100rem;
+}
 .faq-section {
   font-family: "Anton";
   height: 100%;

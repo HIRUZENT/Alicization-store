@@ -71,7 +71,7 @@ const Joki = () => {
       </div>
       <div className="container-fluid container-card">
         <div className="row row-card">
-          <div data-aos="fade-up" data-aos-duration="600" className="col-md-4 col-lg-3 col-sm-4 col-6 d-flex column-card cards1">
+          <div data-aos="fade-up" data-aos-duration="1000" className="col-md-4 col-lg-3 col-sm-4 col-6 d-flex column-card cards1">
             <a href="/joki/trailblaze" className="d-flex">
               <img src={herta} alt="Card_2" />
               <h4>TRAILBLAZE POWER</h4>
@@ -83,13 +83,13 @@ const Joki = () => {
               <h4>STANDARD</h4>
             </a>
           </div>
-          <div data-aos="fade-up" data-aos-duration="600" className="col-md-4 col-lg-3 col-sm-4 col-6 d-flex column-card cards3">
+          <div data-aos="fade-left" data-aos-duration="600" className="col-md-4 col-lg-3 col-sm-4 col-6 d-flex column-card cards3">
             <a href="/joki/PlanarSet" className="d-flex">
               <img src={charlote} alt="Card_3" />
               <h4>PLANAR SET</h4>
             </a>
           </div>
-          <div data-aos="fade-up" data-aos-duration="600" className="col-md-4 col-lg-3 col-sm-4 col-6 d-flex column-card cards4">
+          <div data-aos="fade-right" data-aos-duration="1000" className="col-md-4 col-lg-3 col-sm-4 col-6 d-flex column-card cards4">
             <img src={woldrender} alt="Card_4" />
             <h4>COMING SOON</h4>
           </div>
