@@ -1,6 +1,5 @@
 .container-promo {
-  margin-top: 5rem;
-  max-width: 2rem;
+  margin-top: 4rem;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -16,8 +15,8 @@
   color: #e14b4b;
 }
 .container-promo .carousel-promo img {
-  min-width: 50vw;
-  max-width: 60%;
+  min-width: 65rem;
+  max-width: 80rem;
 }
 @media (width <= 1500px) {
   .container-promo .carousel-promo img {

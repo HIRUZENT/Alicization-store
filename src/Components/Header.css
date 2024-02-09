@@ -16,10 +16,19 @@
     transform: rotate(0deg);
   }
 }
-@keyframes header {
+@keyframes headerWelcome {
   from {
     opacity: 0;
-    font-size: 4rem;
+    transform: translateX(-20%);
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes headerBrand {
+  from {
+    opacity: 0;
+    transform: translateX(20%);
   }
   to {
     opacity: 1;
@@ -56,9 +65,13 @@
 .containerHeader h1 {
   letter-spacing: 2px;
   font-size: 3rem;
-  animation: header 1s ease;
 }
-
+.containerHeader .headerWelcome {
+  animation: headerWelcome 0.7s ease;
+}
+.containerHeader .headerBrand {
+  animation: headerBrand 0.7s ease;
+}
 @media (width <= 894px) {
   .containerHeader img {
     width: 65px;

@@ -21,9 +21,9 @@
   transition: all 0.3s ease;
   animation: gambarWibu 1s ease;
 }
-@media (width <= 1460px) {
-  .containerWibu .col-12 img {
-    scale: 1;
+@media(width<= 1400px){
+    .containerWibu .col-12 img {
+    scale: 0.9;
     transition: all 0.3s ease;
   }
 }

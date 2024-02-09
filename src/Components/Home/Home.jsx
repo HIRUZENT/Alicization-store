@@ -3,7 +3,7 @@ import "../Home/Home.css";
 import Header from "../Header";
 import GambarWibu from "../GambarWibu";
 import Navbar from "../Navbar";
-// import Footer from "./Footer/Footer";
+import Footer from "./Footer/Footer";
 import Promo from "./Promo/Promo";
 const Home = () => {
   return (
@@ -12,7 +12,7 @@ const Home = () => {
       <Header />
       <GambarWibu />
       <Promo/>
-      {/* <Footer /> */}
+      <Footer />
     </section>
   );
 };

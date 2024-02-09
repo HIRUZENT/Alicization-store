@@ -16,7 +16,7 @@ const Footer = () =>{
             <div className="col-md-9">
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos nesciunt magnam ut inventore sint, veritatis animi quia ipsa quibusdam porro.</p>
             </div>
-            <div className="col-md-3 contactList">
+            {/* <div className="col-md-3 contactList">
               <ul>
                 <li>
                   <a href="/" className="d-flex">
@@ -34,7 +34,7 @@ const Footer = () =>{
                   <a href="/">wibu</a>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
       </footer>
